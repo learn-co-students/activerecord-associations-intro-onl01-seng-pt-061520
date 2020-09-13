@@ -7,3 +7,10 @@ class CreateSongs < ActiveRecord::Migration[4.2]
     end
   end
 end
+
+
+pry(main)> hello.artist = adele
+=> #<Artist:0x0000000002a883e0 id: nil, name: "Adele">
+[6] pry(main)> hello.artist
+=> #<Artist:0x0000000002a883e0 id: nil, name: "Adele">
+[7] pry(main)> hello.artist.name
